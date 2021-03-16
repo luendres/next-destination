@@ -1,0 +1,179 @@
+*,
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#form-msg {
+    max-width: 300px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    transform: translate(-40px, -40px);
+    border: 0.5px solid white;
+    border-radius: 50px 0 0 0;
+    
+}
+
+#form-msg input,
+#form-msg textarea,
+#form-msg .form-check-label {
+    font-size: 0.8rem;
+}
+
+.form-header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px 0 0 0;
+    
+}
+
+#form-btn {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    transform: translate(-15px, -15px);
+    z-index: 1;
+
+
+}
+
+#form-btn a {
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.sobreposicao {
+    position: absolute;
+    top: 77%;
+    left: 25%;
+    transform: translate(-50%, -54%);
+    background-color: rgba(0, 0, 0, .8);
+    padding: 2rem;
+    width: 50%;
+    height: 50%;
+    color: white;
+    font-size: 20px;
+    border-radius: 0 25px 0 0;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.street:hover .overlay {
+    opacity: 1;
+}
+
+input[type=mail],.mail {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+input[type=submit] {
+    width: 45%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.btn-more {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-more:hover {
+    background-color: grey;
+    color: black;
+}
+
+#triangle {
+    width: 100%;
+    height: 500px;
+}
+
+.segmentTriangle {
+    width: 100%;
+    height: 200%;
+    left: 0;
+    background: linear-gradient(to left bottom, transparent 51%, white 51%), linear-gradient(to right bottom, black 51%, transparent 51%);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 99%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+#nav-style {
+    background-color: black;
+    color: white !important; 
+}
+
+.nav-hover:hover {
+   color: gray;
+}
